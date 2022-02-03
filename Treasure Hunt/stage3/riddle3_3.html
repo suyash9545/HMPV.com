@@ -1,0 +1,37 @@
+<html lang="en" dir="ltr"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./style1.css">
+  <title>Riddle</title>
+  <script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script></head>
+  <style>
+    .centered {
+    position: fixed;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    cursor: pointer;
+
+}
+</style>
+  <body>
+  <div>
+    <img class="riddle1" src="./images/11.jpg">
+    <input type="password" id="id-input" class="inputbox" placeholder="Click Here To Type Your Answer ">
+    <img class="centered" onclick="ans()" src="./images/right arrow.png" alt="">
+  </div>
+
+  <script type="text/javascript">
+    function ans(){
+      var a = document.getElementById("id-input");
+      if((a.value == "MUlETHI")){
+        window.open("./next.html", "_self");
+      }else{
+        alert("Check your mobile! Get a call to me");
+      }
+    }
+  </script>
+
+  </body>
+</html>

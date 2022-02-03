@@ -1,0 +1,33 @@
+<html lang="en" dir="ltr"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./style1.css">
+  <title>Introduction</title>
+  <script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script>
+<style>
+  .centered {
+    position: fixed;
+    top: 46%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    width: 540px;
+    cursor: pointer;
+
+}
+</style>
+</head>
+  <body>
+  <div>
+    <img class="intro" src="./images/3.jpg"/>
+    <img class="centered" onclick="go()" src="./images/right arrow.png" alt="">
+
+  </div>
+
+  <script type="text/javascript">
+    function go(){
+      window.open("./stage1/stage1.html", "_self");
+    }
+  </script>
+
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<html lang="en" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./style1.css">
+    <title>Riddle</title>
+    <script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script></head>
+    <style>
+      .centered {
+      position: fixed;
+      top: 55%;
+      left:10%;
+      transform: translate(-50%, -50%);
+      width: 500px;
+      cursor: pointer;}
+
+      .crypytex {
+      position: fixed;
+      top: 83%;
+      left:15%;
+      transform: translate(-50%, -50%);
+      width: 800px;
+      cursor: pointer;
+  
+  }
+  </style>
+    <body>
+    <div>
+      <img class="riddle1" src="./images/22.jpg">
+      <img class="centered" onclick="goback()" src="./images/left arrow.png" alt="">
+      <img class="crypytex" onclick="go()" src="./images/crypytex.png" alt="">
+    </div>
+  
+    <script type="text/javascript">
+      function goback(){
+        window.open("stage6.html", "_self");
+      }
+    </script>
+    <script type="text/javascript">
+      function go(){
+        window.open("riddle6_6.html", "_self");
+      }
+    </script>
+  
+    </body>
+  </html>

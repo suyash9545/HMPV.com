@@ -1,0 +1,21 @@
+body{
+  backgorund: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+  }
+.intro
+{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.arrow
+{
+  position: absolute;
+  top: 176px;
+  right: 95px;
+}
